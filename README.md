@@ -4,7 +4,7 @@ A Spotify Clone
 
 Login Page:
 
-![alt text](https://github.com/nsp456/Melodify/screenshots/login.png?raw=true)
+![alt text](https://github.com/nsp456/Melodify/blob/master/screenshots/login.jpg?raw=true)
 
 ## Getting Started
 
