@@ -1,6 +1,10 @@
-# melodify
+# Melodify
 
-A new Flutter project.
+A Spotify Clone
+
+Login Page:
+
+![alt text](https://github.com/nsp456/Melodify/screenshots/login.png?raw=true)
 
 ## Getting Started
 
