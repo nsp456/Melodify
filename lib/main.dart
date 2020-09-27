@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
         decoration: BoxDecoration(
             color: Colors.white,
             image: DecorationImage(
-                image: AssetImage("assets/images/bg4.jpg"), fit: BoxFit.cover)),
+                image: AssetImage("assets/images/bg.jpg"), fit: BoxFit.cover)),
         child: MyHomePage(title: 'Flutter Login'),
       ),
     );
@@ -59,7 +59,9 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Text("New ? Sign Up",
             textAlign: TextAlign.center,
             style: style.copyWith(
-                color: Colors.black, fontWeight: FontWeight.bold)),
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
+                fontFamily: "Lob")),
       ),
     );
     final loginButon = Material(
@@ -73,7 +75,9 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Text("Login",
             textAlign: TextAlign.center,
             style: style.copyWith(
-                color: Colors.black, fontWeight: FontWeight.bold)),
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
+                fontFamily: "Abr")),
       ),
     );
     return Scaffold(
@@ -92,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 155.0,
                   child: CircleAvatar(
                     radius: 100.0,
-                    backgroundImage: AssetImage('assets/images/pp2.png'),
+                    backgroundImage: AssetImage('assets/images/pp.JPG'),
                   ),
                 ),
                 SizedBox(height: 45.0),
